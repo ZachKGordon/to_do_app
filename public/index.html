@@ -2,10 +2,10 @@
 <html>
   <head>
     <title> To Do List</title>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-    <meta name='description' content='code challenge, to do list'>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
     <script src='app.js'></script>
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,600,500' rel='stylesheet' type='text/css'>
+    <meta name='description' content='code challenge, to do list'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' type='text/css' href='skeleton.css'>
     <link rel='stylesheet' type='text/css' href='style.css'>
   </head>
@@ -15,23 +15,26 @@
     </header>
     <main>
       <section class='eight columns' class='input'>
-        <input id="userInput" type="text" placeholder="New/Update Item"/>
+        <input id="userInput" type="text" placeholder="New Item/Update Item"/>
         <button id='newItem'>Add New Item</button>
         <button id="change">Update</button>
         <button id="delete">Delete</button>
       </section>
-      <p>*Enter items above and check the boxes below to update or delete.</p>
+      <p>*Enter items above, and click the boxes below to update or delete.</p>
       <form>
         <ul id='list'>
           <li class='check'><input type="checkbox" />Walk Bruce</li>
           <a href='http://www.eddiebauer.com/'><li class='check'><input type='checkbox'/>Buy Clothes: shirts, shorts, mittens, socks, hats, and pants.</li></a>
           <li class='check'><input type="checkbox" />Make Dinner</li>
           <li class='check'><input type="checkbox" />Clean Dishes</li>
+          <li class='check'><input type="checkbox" />Homework</li>
+          <li class='check'><input type="checkbox" />Vacuum</li>
+          <li class='check'><input type="checkbox" />Balance Checkbook</li>
         </ul>
       </form>
     </main>
     <footer>
-      <h6 class='eight columns'>*Key Items will provide linkes, for example: "Groceries".</h6>
+      <h6 class='eight columns'>*Key Items will provide links, for example: <a href='http://www.QFC.com/'>Groceries</a>.</h6>
       <h6 class='four columns'><a class='about' href='about.html'>About</a></h6>
     </footer>
   </body>
