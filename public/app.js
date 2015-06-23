@@ -26,7 +26,7 @@ $(function(){
     if(event.keyCode == 13){
       $("#userInput").click();{
         addItem();
-      };
+      }
     }
   });
   //Function for delete button.
