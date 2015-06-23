@@ -8,8 +8,8 @@ $(function(){
     }else if ($("#userInput").val().toUpperCase()=='GROCERIES'){
       $("#list").append("<a href='http://www.QFC.com/'><li class='check'><input type='checkbox' />" + $("#userInput").val()+ "</li></a>");
       $ ('#userInput').val('');
-    }else if ($("#userInput").val().toUpperCase()=='CLOTHES'){
-      $("#list").append("<a href='http://www.eddiebauer.com'><li class='check'><input type='checkbox' />" + $("#userInput").val()+ "</li></a>");
+    }else if ($("#userInput").val().toUpperCase()=='HOMEWORK'){
+      $("#list").append("<a href='http://www.codefellows.com'><li class='check'><input type='checkbox' />" + $("#userInput").val()+ "</li></a>");
       $ ('#userInput').val('');
     }else {
       $("#list").append("<li class='check'><input type='checkbox'/>"+ $("#userInput").val() + "</li>");
